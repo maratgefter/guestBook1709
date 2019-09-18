@@ -27,12 +27,15 @@ class Factory
             break;
 
         case 'json':
-        default:
             return new JsonStorage($fileName);
+            break;
+
+        case 'mysql':
+        default:
+            return new MysqlStorage();
+            //echo 123;
             break;
     }
    }
 
 }
-
-?>
