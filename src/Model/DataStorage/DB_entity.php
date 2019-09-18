@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Model\DataStorage;
+
 class DB_entity
 {
     use SettersTrait, PageTrait;

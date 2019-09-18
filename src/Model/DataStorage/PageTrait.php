@@ -1,4 +1,5 @@
 <?php
+    namespace App\Model\DataStorage;
 
     trait PageTrait
     {
